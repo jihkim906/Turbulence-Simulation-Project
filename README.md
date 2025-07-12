@@ -127,8 +127,10 @@ where:
 - $\text{spacing} = \frac{L}{n+1}$
 - $x_i = i \times \text{spacing}$, $y_j = j \times \text{spacing}$
 
-**[Figure Required: Initial Vorticity Distribution]**
-*Include the "Initial Vorticity" figure from your presentation showing the Gaussian distribution pattern.*
+<p align="center">
+  <img src="figures/initial_vorticity.png" width="500" />
+</p>
+<p align="center"><em>Figure 1: Initial Vorticity</em></p>
 
 ## 5. Simulation Parameters
 
@@ -145,10 +147,18 @@ where:
 
 ### 6.1 Vorticity Evolution
 
-**[Figure Required: Vorticity Evolution Comparison]**
-*Include both figures showing:*
-1. *"Vorticity at T = 15" for ν = 0.01 (showing diffusive behavior)*
-2. *"Vorticity at T = 15" for ν = 0.001 (showing turbulent behavior)*
+<table>
+  <tr>
+    <td align="center">
+      <img src="figures/sim1.png" width="400"/><br/>
+      <em>Figure 2a: Vorticity at T = 15" for ν = 0.01 (diffusive behavior)</em>
+    </td>
+    <td align="center">
+      <img src="figures/sim2.png" width="400"/><br/>
+      <em>Figure 2b: Vorticity at T = 15" for ν = 0.001 (turbulent behavior)</em>
+    </td>
+  </tr>
+</table>
 
 The simulations demonstrate distinct behavior depending on viscosity:
 
